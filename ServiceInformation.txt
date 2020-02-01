@@ -1,0 +1,38 @@
+Serverless: Stack update finished...
+Service Information
+service: jammle-2-api
+stage: dev
+region: us-east-1
+stack: jammle-2-api-dev
+resources: 43
+api keys:
+  None
+endpoints:
+  POST - https://d5k1qoe4l2.execute-api.us-east-1.amazonaws.com/dev/notes
+  GET - https://d5k1qoe4l2.execute-api.us-east-1.amazonaws.com/dev/notes/{id}
+  GET - https://d5k1qoe4l2.execute-api.us-east-1.amazonaws.com/dev/notes
+  PUT - https://d5k1qoe4l2.execute-api.us-east-1.amazonaws.com/dev/notes/{id}
+  DELETE - https://d5k1qoe4l2.execute-api.us-east-1.amazonaws.com/dev/notes/{id}
+functions:
+  create: jammle-2-api-dev-create
+  get: jammle-2-api-dev-get
+  list: jammle-2-api-dev-list
+  update: jammle-2-api-dev-update
+  delete: jammle-2-api-dev-delete
+layers:
+  None
+
+Stack Outputs
+AttachmentsBucketName: jammle-2-api-dev-attachmentsbucket-1o5mj7sujygh9
+UserPoolClientId: a40k1nofasft0891cjp8kmh04
+UserPoolId: us-east-1_NLo1neUGk
+DeleteLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:526824542682:function:jammle-2-api-dev-delete:1
+CreateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:526824542682:function:jammle-2-api-dev-create:1
+GetLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:526824542682:function:jammle-2-api-dev-get:1
+UpdateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:526824542682:function:jammle-2-api-dev-update:1
+IdentityPoolId: us-east-1:d5e68e71-07ef-4c54-9862-2468b25cf975
+ListLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:526824542682:function:jammle-2-api-dev-list:1
+ServiceEndpoint: https://d5k1qoe4l2.execute-api.us-east-1.amazonaws.com/dev
+ServerlessDeploymentBucketName: jammle-2-api-dev-serverlessdeploymentbucket-eil9xwocyzxo
+
+Serverless: Run the "serverless" command to setup monitoring, troubleshooting and testing.
